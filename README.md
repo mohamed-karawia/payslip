@@ -7,7 +7,7 @@ You will need [Node.js](https://nodejs.org) installed on your system.
 Get the code by cloning this repository using git
 
 ```
-git clone https://github.com/mohamed-karawia/Calculate-Payslip.git
+git clone https://github.com/mohamed-karawia/payslip.git
 ```
 
 Once downloaded, open the terminal in the project directory, and install dependencies with:
