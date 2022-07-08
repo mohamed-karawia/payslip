@@ -8,7 +8,7 @@ import Container from "../UI/Container";
 const ResultPage = () => {
   const router = useRouter();
   const { payslip } = useContext(PayslipContext);
-  const round = Math.round;
+  
 
   useEffect(() => {
     if (Object.keys(payslip).length === 0) {
@@ -30,10 +30,10 @@ const ResultPage = () => {
           </Tr>
           <Tr>
             <Td>{payslip.name}</Td>
-            <Td>{round(payslip.grossIncome)}</Td>
-            <Td>{round(payslip.incomeTax)}</Td>
-            <Td>{round(payslip.netIncome)}</Td>
-            <Td>{round(payslip.incentiveBonus)}</Td>
+            <Td>{payslip.grossIncome}</Td>
+            <Td>{payslip.incomeTax}</Td>
+            <Td>{payslip.netIncome}</Td>
+            <Td>{payslip.incentiveBonus}</Td>
           </Tr>
         </Tbody>
       </Table>

@@ -10,10 +10,11 @@ const calculateIncomeTax = (annualSalary) => {
 }
 
 export default function calcPayslip(annualSalary, evaluationRate) {
-    const grossIncome = annualSalary / 12;
-    const incomeTax = calculateIncomeTax(annualSalary) / 12;
-    const netIncome = grossIncome - incomeTax;
-    const incentiveBonus = (grossIncome) * (evaluationRate / 100);
+    const round = Math.round;
+    const grossIncome = round(annualSalary / 12);
+    const incomeTax = round(calculateIncomeTax(annualSalary) / 12);
+    const netIncome = round(grossIncome - incomeTax);
+    const incentiveBonus = round((grossIncome) * (evaluationRate / 100));
     return {
         grossIncome,
         incomeTax,
