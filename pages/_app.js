@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import '../styles/globals.css'
 import PayslipContextProvider from '../contexts/payslipContext'
 import { ThemeProvider } from 'styled-components';
@@ -10,6 +11,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <PayslipContextProvider>
       <ThemeProvider theme={theme}>
+      <Head>
+        <title>Calculate Payslip</title>
+      </Head>
         <Component {...pageProps} />
       </ThemeProvider>
     </PayslipContextProvider>

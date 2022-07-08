@@ -30,9 +30,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head title='Calculate Payslip'>
-          <title>Calculate Payslip</title>
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
