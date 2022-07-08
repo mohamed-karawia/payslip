@@ -16,6 +16,7 @@ const ResultPage = () => {
     }
   }, [payslip]);
 
+  console.log(payslip)
   return (
     <Container>
       <Table>
@@ -28,7 +29,7 @@ const ResultPage = () => {
             <Th>incentive bonus</Th>
           </Tr>
           <Tr>
-            <Td>{round(payslip.name)}</Td>
+            <Td>{payslip.name}</Td>
             <Td>{round(payslip.grossIncome)}</Td>
             <Td>{round(payslip.incomeTax)}</Td>
             <Td>{round(payslip.netIncome)}</Td>
