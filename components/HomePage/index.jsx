@@ -45,13 +45,13 @@ const Home = () => {
     }
 
     if (
-      fields["evaluationRate"] < 9 ||
+      fields["evaluationRate"] < 0 ||
       fields["evaluationRate"] > 12 ||
       isNaN(fields["evaluationRate"])
     ) {
       formIsValid = false;
       errors["evaluationRate"] =
-        "Evaluation rate must be a number between 9 and 12";
+        "Evaluation rate must be a number between 0 and 12";
     }
 
     // Date
