@@ -1,6 +1,6 @@
 export const testData = [
     {
-        title: 'Gross income between 0 EGP and 18,200 EGP',
+        title: 'Annual income between 0 EGP and 18,200 EGP',
         input: {
             annualSalary: 10000,
             evaluationRate: 11,
@@ -13,7 +13,7 @@ export const testData = [
         }
     },
     {
-        title: 'Gross income between 18,201 EGP and 37,000 EGP',
+        title: 'Annual income between 18,201 EGP and 37,000 EGP',
         input: {
             annualSalary: 30000,
             evaluationRate: 10,
@@ -26,7 +26,7 @@ export const testData = [
         }
     },
     {
-        title: 'Gross income between 37,001 EGP and 87,000 EGP',
+        title: 'Annual income between 37,001 EGP and 87,000 EGP',
         input: {
             annualSalary: 60050,
             evaluationRate: 9
@@ -39,7 +39,7 @@ export const testData = [
         }
     },
     {
-        title: 'Gross income between 37,001 EGP and 87,000 EGP',
+        title: 'Annual income between 37,001 EGP and 87,000 EGP',
         input: {
             annualSalary: 87000,
             evaluationRate: 12
@@ -52,7 +52,7 @@ export const testData = [
         }
     },
     {
-        title: 'Gross income between 87,001 EGP and 180,000 EGP',
+        title: 'Annual income between 87,001 EGP and 180,000 EGP',
         input: {
             annualSalary: 90000,
             evaluationRate: 9
@@ -65,7 +65,7 @@ export const testData = [
         }
     },
     {
-        title: 'Gross income More than 180,000 EGP',
+        title: 'Annual income More than 180,000 EGP',
         input: {
             annualSalary: 180001,
             evaluationRate: 12
