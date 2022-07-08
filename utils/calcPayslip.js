@@ -1,4 +1,4 @@
-import { taxesTable } from "../testData/fixtures";
+import { taxesTable } from "./constants";
 
 const calculateIncomeTax = (annualSalary) => {
 
