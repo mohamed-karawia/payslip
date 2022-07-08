@@ -15,13 +15,7 @@ Once downloaded, open the terminal in the project directory, and install depende
 ```
 npm install
 ```
-Then start the  app with:
-
-```
-npm start
-```
-
-Or to start the development server run:
+Then start the app in development server with:
 
 ```
 npm run dev
